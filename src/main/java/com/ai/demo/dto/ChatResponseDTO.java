@@ -1,0 +1,13 @@
+package com.ai.demo.dto;
+
+public class ChatResponseDTO {
+    private String response;
+
+    public ChatResponseDTO(String response) {
+        this.response = response;
+    }
+
+    public String getResponse() {
+        return response;
+    }
+}
